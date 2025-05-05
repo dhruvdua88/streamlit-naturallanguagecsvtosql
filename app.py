@@ -5,7 +5,7 @@ from google import genai
 import re
 
 # Configure Google Generative AI API
-api_key = "AIzaSyARg7vkWrQmFia2MgWIqV8I2iaAIK11o24"  # Replace with your actual API key
+api_key = "<ENTER KEY HERE>"  # Replace with your actual API key
 
 # Function to convert CSV to SQLite database
 def csv_to_sqlite(csv_file, db_name="data.db", table_name="transactions"):
